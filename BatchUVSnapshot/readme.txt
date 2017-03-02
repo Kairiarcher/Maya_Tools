@@ -8,6 +8,6 @@ Install instruction:
 how to use in maya:
     -in the maya script editor, run the following python code to call the UI window:
         from BatchUVSnapshot import showUI
-        ui = BatchUVUI.showUI()
+        ui = showUI()
     -select the object(s) that you wish to export the UV of.
     -by default, the UV will be saved on your desktop with the transform name, 1024 x 1024 in resolution, maya iff format.
